@@ -11,7 +11,7 @@ void readnum(float* num,int n,float* average) {
 int main() {
 	int n;
 	float numbers[200], average = 0,var=0;
-	printf("Enter number of numbers: ");
+	printf("Enter number of elements: ");
 	scanf_s("%d", &n);
 	readnum(&numbers, n,&average);
 	average /= n;

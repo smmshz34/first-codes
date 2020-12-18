@@ -24,5 +24,5 @@ int main() {
 	printf("enter number of numbers: ");
 	scanf_s("%d", &n);
 	readnum(&numbers, n);
-	printf("%f", compare(&numbers, n));
+	printf("%.2f", compare(&numbers, n));
 }
